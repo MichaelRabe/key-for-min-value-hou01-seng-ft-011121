@@ -4,6 +4,7 @@
 def key_for_min_value(name_hash)
   if name_hash == nil
     return "nil"
+  end
   if name_hash.first[0] != nil && name_hash.first[1] != nil
     lowest_value = name_hash.first[1]
     lowest_key = name_hash.first[0]
